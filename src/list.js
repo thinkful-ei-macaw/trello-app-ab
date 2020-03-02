@@ -11,7 +11,7 @@ function List(props) {
                 <h2>{props.header}</h2>
             </header>
             <div className="List-cards">
-                {cards}
+                {allCards}
                 <button type="button" class="list-add-card">+Add a Card</button>
             </div>
         </section>
@@ -19,4 +19,4 @@ function List(props) {
     );    
 }
 
-export default list;
+export default List;
