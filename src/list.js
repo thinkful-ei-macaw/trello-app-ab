@@ -11,7 +11,7 @@ function List(props) {
                 <h2>{props.header}</h2>
             </header>
             <div className="List-cards">
-                {allCards}
+                {cards}
                 <button type="button" class="list-add-card">+Add a Card</button>
             </div>
         </section>
